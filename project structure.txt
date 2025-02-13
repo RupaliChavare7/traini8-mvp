@@ -1,0 +1,25 @@
+Traini8
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── traini8
+│   │   │           ├── controller
+│   │   │           │   └── TrainingCenterController.java
+│   │   │           ├── model
+│   │   │           │   └── TrainingCenter.java
+│   │   │           ├── repository
+│   │   │           │   └── TrainingCenterRepository.java
+│   │   │           ├── service
+│   │   │           │   └── TrainingCenterService.java
+│   │   │           └── exception
+│   │   │               └── GlobalExceptionHandler.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── traini8
+│                   └── TrainingCenterControllerTest.java
+└── README.md
