@@ -9,8 +9,8 @@ API Endpoints
 Validation Rules
 Exception Handling
 Project Structure
-Contributing
-License
+
+
 Technologies Used
 Java 11
 Spring Boot
@@ -23,7 +23,7 @@ Clone the Repository
 
 bash
 Copy code
-git clone <repository-url>
+git clone 
 cd Traini8
 Build the Project
 
@@ -62,22 +62,29 @@ Response:
 Returns the created training center information in JSON format.
 2. Get All Training Centers
 Endpoint: GET /api/training-centers
+
 Response:
 Returns a list of all training centers in JSON format. If no centers are found, returns an empty list.
+
 Validation Rules
+
 Mandatory Fields:
 centerName, centerCode, address, contactPhone are required.
+
 Field Constraints:
 centerName: Max 40 characters.
 centerCode: Exactly 12 alphanumeric characters.
 contactPhone: Must be a valid 10-digit phone number.
 contactEmail: If present, must be a valid email format.
+
 CreatedOn Field:
 Automatically populated with the server timestamp.
+
 Exception Handling
 The application uses a global exception handler to manage validation errors and return appropriate error messages.
+
 Project Structure
-Copy code
+
 Traini8
 │
 ├── src
@@ -97,5 +104,3 @@ Traini8
 │           └── com
 │               └── traini8
 └── README.md
-Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
