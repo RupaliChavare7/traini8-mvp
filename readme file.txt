@@ -23,7 +23,7 @@ Clone the Repository
 
 bash
 Copy code
-git clone 
+git clone https://github.com/RupaliChavare7/traini8-mvp
 cd Traini8
 Build the Project
 
