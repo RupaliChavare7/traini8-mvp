@@ -16,7 +16,7 @@ Java 11
 Spring Boot
 Spring Data JPA
 Hibernate
-H2 Database (or any other database of your choice)
+SQL Database (or any other database of your choice)
 Maven
 Setup Instructions
 Clone the Repository
